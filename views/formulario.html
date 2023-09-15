@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="Laura" content="Formulario">
+        <title>Formulario</title>
+    </head>
+    <body>
+        <form name = "Formulario" action="../index.html" method="post">
+            <label for="describirPerfil">Describa su perfil</label>
+            <br>
+            <textarea id="describirPerfil" rows = "5" cols = "50" name="describirPerfil"></textarea>
+            <br>
+            <br>
+            <label for="tipoIdentificacion">Tipo de identificación:</label>
+            <select name="tipoIdentificacion" id="tipoIdentificacion" pla>
+                <option value="" disabled selected>Seleccione un Tipo de Documento</option>
+                <option value="Cédula de Ciudadania">Cédula de Ciudadania</option>
+                <option value="NUIP">Número Único de Identificación (NUIP)</option>
+                <option value="Tarjeta de Identidad">Tarjeta de Identidad</option>
+                <option value="Cédula Extranjeria">Cédula de Extranjeria</option>
+                </select>
+            <br>
+            <br>
+            <label for="numeroIdentificacion">Numero de identificación:</label>
+            <input type="number" id="numeroIdentificacion" name="numeroIdentificacion">
+            <br>
+            <br>
+            <label for="ciudad">¿En qué ciudad vives?</label>
+            <select name="ciudad">
+            <option selected value="0"> Elige una ciudad</option>
+            <optgroup label="Cundinamarca">
+            <option value="1">Bogotá</option>
+            <option value="2">Chia</option>
+            </optgroup>
+            <optgroup label="Antioquia">
+            <option value="4">Medellin</option>
+            <option value="5">Envigado</option>
+            </optgroup>
+            </select>
+            <br>
+            <br>
+            <label for="apellidos">Apellidos:</label>
+            <input type="text" id="apellidos" name="apellidos">
+            <br>
+            <br>
+            <label for="nombres">Nombres:</label>
+            <input type="text" id="nombres" name="nombres">
+            <br>
+            <br>
+            <label for="genero">Género:</label>
+            <input type="radio" name="genero" value="Masculino"> Masculino
+            <input type="radio" name="genero" value="Femenino"> Femenino
+            <br>
+            <br>
+            <label for="estadoCivil">Estado Civil:</label>
+            <input type="radio" name="estadoCivil" value="Soltero"> Soltero
+            <input type="radio" name="estadoCivil" value="Casado"> Casado
+            <input type="radio" name="estadoCivil" value="Unión Libre"> Unión Libre
+            <input type="radio" name="estadoCivil" value="Viudo(a)"> Viudo(a)
+            <br>
+            <br>
+            <label for="telefonoContacto">Número telefónico de contacto:</label>
+            <input type="text" id="telefonoContacto" name="telefonoContacto">
+            <br>
+            <br>
+            <label for="direccionResidencia">Dirección de tu residencia:</label>
+            <input type="text" id="direccionResidencia" name="direccionResidencia">
+            <br>
+            <br>
+            <label for="correoContacto">Correo electrónico de contacto:</label>
+            <input type="text" id="correoContacto" name="correoContacto" placeholder="usuario@dominio.com">
+            <br>
+            <br>
+            <label for="formulario">Introduce tu contraseña:</label>
+            <input type="password" name="clave">
+            <br>
+            <br>
+            <label>¿Qué te gusta hacer en tu tiempo libre?</label>
+            <input type="checkbox" id="series" name="series">
+            <label for="series">Ver Series</label>
+            <input type="checkbox" id="jugar" name="jugar">
+            <label for="jugar">Jugar Videojuegos</label>
+            <input type="checkbox" id="deportes" name="deportes">
+            <label for="deportes">Hacer Deporte</label>
+            <br>
+            <br>
+            <label for="archivo"> Sube aquí tu archivo</label>
+            <input type="file" name="archivo">
+            <br>
+            <br>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Reestablecer">
+        </form>
+    </body>
+</html>
