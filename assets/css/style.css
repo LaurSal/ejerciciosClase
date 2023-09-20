@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;1,100&display=swap');
+
+body{ /*Reseteando para cualquier navegador*/
+    margin: 0;
+    width: auto;
+    height: 0;
+}
+
+body { 
+    background-image: url("../img/xilofono.jpg"); 
+    background-repeat: no-repeat;
+    width: auto;
+    height: 200px;
+} /*Si yo pongo una imagen, que sea grande asi se puede ver en toda la pagina y no se repite :D*/
+
+h1 { 
+    background-color: #FC9804; 
+    color: blueviolet;
+    font-family: "Lato";/*en google fonts me genera la familia especifica de una fuente*/
+    font-style: italic;
+    font-weight: bold;
+    font-size: 30pt; /*o 100% o 1em o 16px*/
+    text-align: center;
+    text-decoration: overline;
+    text-transform: capitalize; /*Coge toda la letra y la pone de la manera que se define aqui*/
+}
+
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
