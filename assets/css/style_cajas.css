@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap');
+
+body{ 
+    margin: 0;
+    width: auto;
+    height: 0;
+}
+
+h2{
+    color:#5c35ab;
+    font-family: 'Pixelify Sans', cursive;
+    font-size: 35px;
+}
+
+#ali {
+    text-align: right;
+}
+
+.azul {
+    color: #5882FA;
+    font-weight: bold;
+    text-align: center;
+}
+
+.amarillo {
+    color: #FFBF00;
+    font-style: italic;
+    font-size: x-large;
+}
+
+.rojo {
+    color: red;
+    font-variant: small-caps;
+    font-kerning: initial;
+}
+
+.homero {
+    font-style:italic;
+    text-decoration:underline;
+    color:#FCFC34;
+}
