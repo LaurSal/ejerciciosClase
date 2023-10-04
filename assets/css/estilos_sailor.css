@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&family=Mooli&family=Open+Sans:wght@300&display=swap');
+
+body{ 
+    margin: 0;
+    width: auto;
+    height: 0;
+    font-family: 'Comic Neue', cursive;
+}
+
+.titulo h1{
+    color: #FFFFFF;
+    text-shadow: 2px 2px 4px #e29402;
+}
+
+.titulo{
+    margin: 50px;
+}
+
+.titulo img{
+    width: 50px;
+    float: left;
+    margin-right: 20px;
+}
+
+.contenido{
+    width: 1000px;
+    margin: auto;
+}
+
+.contenido h2{
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+.contenido ul{
+    list-style-image: url(../img/lunalista.png);    
+    list-style-position: inside;
+}
+
+.personaje {
+    width: 1000px;
+    background:linear-gradient(#F9A9FB,#F9D3FA);
+    box-shadow: 3px 3px #999999;
+    padding: 30px 30px 30px 30px;
+    margin: 50px auto;
+}
+
+.personaje h2{
+    color: #FFFFFF;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.personaje img{
+    width: 100px;
+    float: left;
+    margin-right: 50px;
+    border-radius: 50%;
+    border: 7px solid #FFFFFF;
+}
+
+.personaje p{
+    text-align: justify;
+}
+
+.boton {
+    width: 150px;
+    margin: auto;
+    background-color: red;
+    padding: 15px 10px 15px 10px;
+    border-radius: 5%;
+}
+
+.boton a{
+    color: #FFFFFF;
+}
